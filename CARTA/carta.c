@@ -7,7 +7,7 @@ void Inicializa(TadCarta *carta, int v, char n){
     carta->naipe = n;
 }
 
-//CONEVRETE OS NUMEROS PARA SUAS RESPECTIVAS LETRAS
+//CONVERTE OS NUMEROS PARA SUAS RESPECTIVAS LETRAS
 //1=A, 10=X, 11=J, 12=Q, 13=K
 char ConverteValor(TadCarta carta){
     char valor;
